@@ -1,0 +1,196 @@
+/*
+#EEE
+#BEBBC1
+#A2A2A2
+#634B66
+#1B151C
+#8e667f
+*/
+body {
+    background-color: #EAEBEE;
+}
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+@font-face {
+    font-family: "ACASLONPRO";
+    src: url(../font/ACASLONPRO-REGULAR.OTF);
+}
+
+@font-face {
+    font-family: "ACASLONPRO";
+    src: url(../font/ACASLONPRO-ITALIC.OTF);
+}
+
+@font-face {
+    font-family: "ACASLONPRO";
+    src: url(../font/ACASLONPRO-BOLD.OTF);
+}
+
+/*barre de navigation (trouver pk c'est inversé)*/
+
+#nav {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: #EEE;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #BEBBC1;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #634B66 on hover */
+
+li a:hover {
+    background-color: #634B66;
+}
+/*fin de la barre de navigation*/
+
+
+/* debut header */
+.fondordi {
+    background-image: url(../images/thom-527.jpg);
+    background-size:cover;
+	background-position: center;
+	width: 100%;
+	height:70em ;
+	text-align: center;
+    background-repeat: no-repeat;
+    color: #EEE;
+}
+
+
+.fondordi h1 {
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #634B66;
+}
+
+
+.fondordi p {
+    font-size: 30px;
+    text-align: center;
+    padding-top: 45px;
+    font-weight: bold;
+    text-shadow: 3px 3px 3px #634B66;
+}
+
+
+.fondordi hr {
+    width: 390px;
+}
+/*fin du header  */
+
+
+/*section home  */
+#Home {
+    background-color:  #BEBBC1;
+    height: 600px;
+    display: flex;
+	justify-content: center;
+}
+
+
+.HomeText {
+    color: #634B66;
+    font-size: 40px;
+    padding-top: 50px;
+    text-decoration: underline;
+
+}
+
+
+#Home p {
+    font-size: 25px;
+    width: 350px;
+    padding-top: 60px;
+    text-align: justify;
+    color:  #634B66;
+}
+
+
+#Home img {
+
+    width: 450px;
+    height: 300px;
+	margin-top: 150px;
+	margin-left: 150px;
+}
+/*fin section home  */
+
+/* section skills */
+
+
+#Skills {
+    background-color: #634B66;
+    height: 600px;
+	display: flex;
+	justify-content: center;
+
+}
+
+
+.logo {
+	margin-top: 150px;
+	width: 200px;
+	height: 200px;
+
+
+}
+
+.SkillsText {
+    color: #EEE;
+    font-size: 40px;
+    padding-top: 80px;
+    text-decoration: underline;
+
+}
+
+#Works {
+    background-color:  #BEBBC1;
+    height: 600px;
+    display: flex;
+}
+
+.WorkText {
+    color: #634B66;
+    font-size: 40px;
+    padding-top: 70px;
+    text-decoration: underline;
+    margin-left: 70px;
+}
+
+#Contact {
+    background-color: #634B66;
+    height: 600px;
+}
+
+/* section skills */
+
+.ContactText {
+    color: #EEE;
+    font-size: 40px;
+    padding-top: 70px;
+    text-decoration: underline;
+    margin-left: 70px;
+}
