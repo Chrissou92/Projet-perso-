@@ -120,6 +120,7 @@ li a:hover {
 }
 
 
+
 #Home p {
     font-size: 25px;
     width: 350px;
@@ -136,6 +137,12 @@ li a:hover {
 	margin-top: 150px;
 	margin-left: 150px;
 }
+.HomeText a:hover{
+	color: #EEE;
+}
+
+
+
 /*fin section home  */
 
 /* section skills */
@@ -145,26 +152,46 @@ li a:hover {
     background-color: #634B66;
     height: 600px;
 	display: flex;
-	justify-content: center;
-
+	justify-content: space-around;
 }
 
-
-.logo {
-	margin-top: 150px;
-	width: 200px;
-	height: 200px;
-
-
+#logo {
+	width: 50%;
+	height: 100px;
 }
+
 
 .SkillsText {
-    color: #EEE;
-    font-size: 40px;
-    padding-top: 80px;
-    text-decoration: underline;
+	color: #EEE;
+	font-size: 40px;
+	padding-top: 80px;
+	text-decoration: underline;
 
 }
+.SkillsText a:hover{
+	color:  #181419;
+}
+
+.logo {
+
+	width: 250px;
+	height: 250px;
+}
+.php {
+	margin-bottom: 50px;
+	margin-left: 50px;
+	width:170px;
+	height: 150px;
+}
+
+.jquery{
+	width: 150px;
+	height: 150px;
+	margin-left: 60px;
+	margin-bottom: 30px;
+
+}
+
 
 #Works {
     background-color:  #BEBBC1;
@@ -179,6 +206,10 @@ li a:hover {
     text-decoration: underline;
     margin-left: 70px;
 }
+.WorkText a:hover{
+	color: #EEE;
+}
+
 
 #Contact {
     background-color: #634B66;
@@ -193,4 +224,12 @@ li a:hover {
     padding-top: 70px;
     text-decoration: underline;
     margin-left: 70px;
+}
+
+.ContactText a:hover {
+	color: #181419;
+}
+
+#bloc1 {
+	background-color: #634B66;
 }
